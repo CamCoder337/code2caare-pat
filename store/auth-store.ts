@@ -24,7 +24,7 @@ interface AuthActions {
 
 type AuthStore = AuthState & AuthActions;
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = 'https://high5-gateway.onrender.com/api/v1';
 
 export const useAuthStore = create<AuthStore>()(
   persist(
